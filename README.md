@@ -5,19 +5,19 @@ Simple, lightweight client for the IP Monster enrichment service. Get comprehens
 ## Installation
 
 ```bash
-npm install ip-monster
+npm install ipmonster
 ```
 
 ## Getting Started
 
 1. **Get your API key**: Create a free account at [bestipapi.com/register](https://bestipapi.com/register) to get your API key
-2. **Install the package**: `npm install ip-monster`
+2. **Install the package**: `npm install ipmonster`
 3. **Start using**: Configure your API key and make calls
 
 ## Quick Start
 
 ```javascript
-const IPMonster = require('ip-monster');
+const IPMonster = require('ipmonster');
 
 // Configure your API key (do this once)
 IPMonster.configure({ apiKey: 'your-api-key-here' });
@@ -218,7 +218,7 @@ try {
 
 ### Basic Usage
 ```javascript
-const IPMonster = require('ip-monster');
+const IPMonster = require('ipmonster');
 
 IPMonster.configure({ apiKey: process.env.IPMONSTER_API_KEY });
 
