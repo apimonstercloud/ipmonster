@@ -1,0 +1,41 @@
+{
+  "name": "ipmonster",
+  "version": "1.0.0",
+  "description": "Simple client for real-time IPV4 and IPV6 lookup and validation. Over 99% of IP addresses covered Worldwide. Over 30 distinct attributes for each request.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "ip lookup",
+    "ip location",
+    "ip lookup",
+    "ip geolocation",
+    "ip",
+    "enrichment",
+    "geolocation",
+    "api",
+    "isp",
+    "ip-lookup",
+    "timezone",
+    "network",
+    "bestipapi"
+  ],
+  "author": "API Monster",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apimonster/ip-monster.git"
+  },
+  "bugs": {
+    "url": "https://github.com/apimonster/ip-monster/issues"
+  },
+  "homepage": "https://github.com/apimonster/ip-monster#readme",
+  "files": [
+    "index.js",
+    "README.md"
+  ]
+}
